@@ -8,25 +8,22 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
         <div className="container mx-auto px-6 py-4">
           <h1 className="font-display text-xl font-light tracking-widest text-foreground uppercase">
-            Gallery
+            Germans
           </h1>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="pt-20">
+      <main className="pt-10">
         {/* Image Section */}
         <section className="min-h-screen flex flex-col justify-center px-6 py-16 md:py-24">
           <div className="container mx-auto max-w-6xl">
             <div className="opacity-0 animate-fade-up">
               <span className="inline-block text-primary font-body text-sm tracking-[0.3em] uppercase mb-4">
-                Featured Image
+                Image
               </span>
-              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-light text-foreground mb-8 leading-tight">
-                Golden Hour
-              </h2>
             </div>
-            
+
             <div className="opacity-0 animate-fade-in animation-delay-400">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-transparent rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
@@ -36,10 +33,6 @@ const Index = () => {
                   className="relative w-full h-auto rounded-lg shadow-2xl shadow-glow-subtle"
                 />
               </div>
-              <p className="mt-6 text-muted-foreground font-body text-sm tracking-wide max-w-2xl">
-                A breathtaking vista of mountain peaks emerging through ethereal mist, 
-                bathed in the warm embrace of golden hour light.
-              </p>
             </div>
           </div>
         </section>
@@ -56,11 +49,8 @@ const Index = () => {
               <span className="inline-block text-primary font-body text-sm tracking-[0.3em] uppercase mb-4">
                 Featured Video
               </span>
-              <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-light text-foreground mb-8 leading-tight">
-                In Motion
-              </h2>
             </div>
-            
+
             <div className="opacity-0 animate-fade-in animation-delay-600">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-transparent rounded-lg blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
@@ -73,10 +63,6 @@ const Index = () => {
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <p className="mt-6 text-muted-foreground font-body text-sm tracking-wide max-w-2xl">
-                Experience the serene beauty of nature in motion, 
-                where light and landscape dance in perfect harmony.
-              </p>
             </div>
           </div>
         </section>
